@@ -4,6 +4,17 @@
   margin-top: -23px;
 }
 
+.img-container {
+  height:251px;
+  width:251px;
+}
+
+.thumbnail {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
 .navbar {
   min-height: 100px;
   margin-top: 17px;
@@ -26,6 +37,31 @@
   margin-top: 23px;
   padding: 9px 10px !important;
 }
+
+/* -------- Team page -------- */
+
+.meetDiv {
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+
+.meetCenter {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px; /* margin is -0.5 * dimension */
+  margin-top: -25px;
+  color: #F5A623;
+  font-size: 126px;
+}​
+
 
 @media (min-width: 768px) {
   .navbar-nav > li > a {
