@@ -1,10 +1,10 @@
 # weave-web
 
 Pages-
-  About
-  Research
-  Team 
-  Join Us
+  About,
+  Research,
+  Team, 
+  Join Us,
   Contact
 
 
