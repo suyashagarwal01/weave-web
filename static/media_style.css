@@ -71,6 +71,10 @@
     }
     .mob_seeMore{
         visibility: visible;
+        color: white;
+    }
+    .mob_seeMore > div > a:link {
+        color: white;
     }
 }
 
@@ -124,6 +128,9 @@
     .mob_seeMore{
         visibility: visible;
     }
+    .mob_seeMore > div > a:link {
+        color: white;
+    }
 }
 
 
@@ -173,6 +180,14 @@
     }
     .mob_seeMore{
         visibility: visible;
+    }
+
+    .mob_seeMore > div > a:link {
+        color: white;
+    }
+
+    .mob_seeMore > div > a:hover {
+        color: white;
     }
 }
 
