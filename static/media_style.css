@@ -1,6 +1,6 @@
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     .social_media li a{
         font-size: 0.4em;
     }
@@ -18,7 +18,7 @@
         padding-bottom: 0;
         margin-top: 10px;
         margin-bottom:10px;
-      }
+    }
     .logo {
         height:2.5em;
         width: 2.5em;
@@ -50,9 +50,30 @@
         margin-right: auto;
         width: 80%;
         float: none;
-      }
+    }
+    .re_img{
+        height: 55vw;
+        max-width: 55vw;
+    }
+    .see_more h5{
+        visibility: hidden;
+    }
+    .col-8{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .research h1{
+        padding: 0 0;
+        text-align: center;
+        width: auto;
+        font-size: calc(20px + 7vw);
 
- }
+    }
+    .mob_seeMore{
+        visibility: visible;
+    }
+}
+
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 576.1px) and (max-width: 768px) {
@@ -83,8 +104,28 @@
         margin-right: auto;
         width: 60%;
         float: none;
-      }
- }
+    }
+    .re_img{
+        height: 55vw;
+        max-width: 55vw;
+    }
+    .see_more h5{
+        visibility: hidden;
+    }
+    .col-8{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .research h1{
+        padding: 0 0;
+        text-align: center;
+        width: auto;
+    }
+    .mob_seeMore{
+        visibility: visible;
+    }
+}
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 768.1px) and (max-width: 992px) {
@@ -113,8 +154,27 @@
         margin-right: auto;
         width: 60%;
         float: none;
-      }
- }
+    }
+    .re_img{
+        height: 55vw;
+        max-width: 55vw;
+    }
+    .see_more{
+        visibility: hidden;
+    }
+    .col-8, .col-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .research h1{
+        padding: 0 0;
+        text-align: center;
+        width: auto;
+    }
+    .mob_seeMore{
+        visibility: visible;
+    }
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 992.1px) and (max-width: 1200px) {
@@ -144,5 +204,5 @@
         margin-right: auto;
         width: 60%;
         float: none;
-      }
- }
+    }
+}

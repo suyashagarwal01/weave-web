@@ -125,8 +125,8 @@
 
 /* -------- Team page -------- */
 
-#team, #research {
-    padding-top: 100px;
+#team, #research, #joinus {
+    padding-top: 120px;
 }
 
 .centering {
@@ -156,7 +156,7 @@
 .card {
     background-color: rgba(245, 245, 245, 0) !important;
     border: none !important;
-    /*width: 18rem;*/
+    /*width: 100%;*/
     text-align: center;
     align: center;
 }
@@ -193,7 +193,7 @@
     position: fixed;
     width: 100px;
     height: 50px;
-    top: 30%;
+    top: 40%;
     left: 10%;
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px;
@@ -590,14 +590,14 @@
         /*font-size: 2rem;*/
     }
 
-    ​
+
     .memberField {
         width: 50%;
         text-align: center;
         display: inline-block;
     }
 
-    ​
+
     .researchDiv {
         font-family: 'Playfair Display', serif !important;
         width: 100%;
