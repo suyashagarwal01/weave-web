@@ -158,7 +158,7 @@
 }
 
 .memberType {
-    margin-top: 9rem;
+    margin-top: 10vw;
     font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
 }
@@ -180,6 +180,7 @@
 .memberName {
     margin-top: -10px;
     font-family: 'Lato', sans-serif;
+    /*font-weight: 700;*/
 }
 
 .memberField {
@@ -225,17 +226,22 @@
 
 .creativeMindsDiv {
     width: 100%;
+    display: table-cell;
+    vertical-align:middle;
     /*text-align: center;*/
-    height: auto;
+    height: 100%;
     /*bottom: 0px;*/
-    top: 0px;
-    right: 0;
-    position: absolute;
+    /*top: 0px;*/
+    /*right: 0;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*position: absolute;*/
     z-index: 0;
-    display: block;
-    min-height: 50%;
-    min-width: 50%;
-    color: yellow;
+    /*display: block;*/
+    /*min-height: 50%;*/
+    /*min-width: 50%;*/
+    visibility: visible;
+    /*color: yellow;*/
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -243,21 +249,34 @@
 
 }
 
+.creativeMindsSmallCenter{
+    visibility: hidden;
+}
+
+.creativeMindsSmallDiv{
+    visibility: hidden;
+}
+
 .creativeMindsCenter {
     /*display: block;*/
     position: fixed;
     /*width: 10rem;*/
-    height: 50px;
-    top: 30%;
-    right: 20%;
-    margin-left: -50px; /* margin is -0.5 * dimension */
-    margin-top: -25px;
+    /*height: 50px;*/
+    /*top: 30%;*/
+    vertical-align: center;
+    right: 10%;
+    bottom: 25%;
+    /*right: 50%;*/
+    /*margin-left: -50px; !* margin is -0.5 * dimension *!*/
+    /*margin-top: -25px;*/
     /*color: #F5A623;*/
     font-family: 'Lato', sans-serif;
     color: rgba(0, 0, 0, 0.05);
     line-height: 8vw;
     font-size: 10vw;
     text-align: center;
+    z-index: 0;
+    visibility: visible;
     /*font-size: 2rem;*/
 }
 
@@ -279,8 +298,9 @@
         top: 0px;
         left: 0;
         position: fixed;
-        visibility: visible;
+        visibility: hidden;
     }
+
 
     .meetCenter {
         position: fixed;
@@ -293,11 +313,11 @@
         color: #F5A623;
         /*line-height: 63px;*/
         /*font-size: 65px;*/
-        visibility: visible;
+        visibility: hidden;
     }
 
     .meetDivSmall {
-        visibility: hidden;
+        visibility: visible;
         font-family: 'Playfair Display', serif;
         width: 100%;
         height: auto;
@@ -306,15 +326,60 @@
     }
 
     .meetCenterSmall {
-        visibility: hidden;
+        visibility: visible;
         margin-top: 10px;
         color: #F5A623;
-        line-height: 25px;
-        font-size: 30px;
+        line-height: 10vw;
+        font-size: 10vw;
         /*margin: 0 auto;*/
     }
 
     .creativeMindsDiv {
+        visibility: hidden;
+        width: 100%;
+        height: auto;
+        /*bottom: 0px;*/
+
+        top: 0px;
+        right: 0;
+        position: absolute;
+        z-index: 0;
+        display: block;
+        min-height: 50%;
+        min-width: 50%;
+        color: yellow;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+
+    .creativeMindsSmallCenter{
+        visibility: visible;
+        position: fixed;
+        /*width: 100px;*/
+        /*visibility: hidden;*/
+        height: 50px;
+
+        text-align: center;
+        /*display: inline;*/
+        top: 50%;
+        right: 10%;
+        /*right: 50%;*/
+        margin: 0 auto;
+        margin-left: -50px; /* margin is -0.5 * dimension */
+        margin-top: -25px;
+        /*color: #F5A623;*/
+
+        font-family: 'Lato', sans-serif;
+        color: rgba(0, 0, 0, 0.05);
+        line-height: 18vw;
+        font-size: 20vw;
+        /*font-size: 2rem;*/
+    }
+
+    .creativeMindsSmallDiv{
+        visibility: visible;
         width: 100%;
         height: auto;
         /*bottom: 0px;*/
@@ -336,23 +401,27 @@
     .creativeMindsCenter {
         position: fixed;
         /*width: 100px;*/
+        visibility: hidden;
         height: 50px;
-        top: 40%;
+
         text-align: center;
         /*display: inline;*/
-        left: 30%;
+        top: 30%;
+        right: 10%;
+        /*right: 50%;*/
         margin: 0 auto;
         margin-left: -50px; /* margin is -0.5 * dimension */
         margin-top: -25px;
         /*color: #F5A623;*/
-        line-height: 4.5rem;
+
         font-family: 'Lato', sans-serif;
         color: rgba(0, 0, 0, 0.05);
-        font-size: 80px;
+        line-height: 18vw;
+        font-size: 20vw;
         /*font-size: 2rem;*/
     }
 
-    ​
+
     .researchDiv {
         font-family: 'Playfair Display', serif;
         width: 100%;
@@ -403,7 +472,7 @@
 
 /*  ========  MAX-WIDTH 768px ======= */
 
-@media (max-width: 768px) {
+@media /* (min-width: 576.1px) and */(max-width: 768px) {
 
     .meetDiv {
         font-family: 'Playfair Display', serif;
@@ -444,12 +513,57 @@
         visibility: visible;
         margin-top: 10px;
         color: #F5A623;
-        line-height: 8vw;
-        font-size: 8vw;
+        line-height: 10vw;
+        font-size: 10vw;
         /*margin: 0 auto;*/
     }
 
     .creativeMindsDiv {
+        visibility: hidden;
+        width: 100%;
+        height: auto;
+        /*bottom: 0px;*/
+
+        top: 0px;
+        right: 0;
+        position: absolute;
+        z-index: 0;
+        display: block;
+        min-height: 50%;
+        min-width: 50%;
+        color: yellow;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+
+    .creativeMindsSmallCenter{
+        visibility: visible;
+        position: fixed;
+        /*width: 100px;*/
+        /*visibility: hidden;*/
+        height: 50px;
+
+        text-align: center;
+        /*display: inline;*/
+        top: 50%;
+        right: 10%;
+        /*right: 50%;*/
+        margin: 0 auto;
+        margin-left: -50px; /* margin is -0.5 * dimension */
+        margin-top: -25px;
+        /*color: #F5A623;*/
+
+        font-family: 'Lato', sans-serif;
+        color: rgba(0, 0, 0, 0.05);
+        line-height: 18vw;
+        font-size: 20vw;
+        /*font-size: 2rem;*/
+    }
+
+    .creativeMindsSmallDiv{
+        visibility: visible;
         width: 100%;
         height: auto;
         /*bottom: 0px;*/
@@ -471,11 +585,14 @@
     .creativeMindsCenter {
         position: fixed;
         /*width: 100px;*/
+        visibility: hidden;
         height: 50px;
-        top: 40%;
+
         text-align: center;
         /*display: inline;*/
-        left: 25%;
+        top: 30%;
+        right: 10%;
+        /*right: 50%;*/
         margin: 0 auto;
         margin-left: -50px; /* margin is -0.5 * dimension */
         margin-top: -25px;
@@ -585,43 +702,43 @@
         /*margin: 0 auto;*/
     }
 
-    .creativeMindsDiv {
-        width: 100%;
-        height: auto;
-        /*bottom: 0px;*/
+    /*.creativeMindsDiv {*/
+        /*width: 100%;*/
+        /*height: auto;*/
+        /*!*bottom: 0px;*!*/
 
-        top: 0px;
-        right: 0;
-        position: absolute;
-        z-index: 0;
-        display: block;
-        min-height: 50%;
-        min-width: 50%;
-        color: yellow;
-        -webkit-user-select: none; /* Safari */
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* IE10+/Edge */
-        user-select: none; /* Standard */
-    }
+        /*top: 0px;*/
+        /*right: 0;*/
+        /*position: absolute;*/
+        /*z-index: 0;*/
+        /*display: block;*/
+        /*min-height: 50%;*/
+        /*min-width: 50%;*/
+        /*color: yellow;*/
+        /*-webkit-user-select: none; !* Safari *!*/
+        /*-moz-user-select: none; !* Firefox *!*/
+        /*-ms-user-select: none; !* IE10+/Edge *!*/
+        /*user-select: none; !* Standard *!*/
+    /*}*/
 
-    .creativeMindsCenter {
-        position: fixed;
-        /*width: 100px;*/
-        height: 50px;
-        top: 40%;
-        text-align: center;
-        /*display: inline;*/
-        left: 30%;
-        margin: 0 auto;
-        margin-left: -50px; /* margin is -0.5 * dimension */
-        margin-top: -25px;
-        /*color: #F5A623;*/
-        font-family: 'Lato', sans-serif;
-        color: rgba(0, 0, 0, 0.05);
-        line-height: 8vw;
-        font-size: 10vw;
-        /*font-size: 2rem;*/
-    }
+    /*.creativeMindsCenter {*/
+        /*position: fixed;*/
+        /*!*width: 100px;*!*/
+        /*height: 50px;*/
+        /*top: 40%;*/
+        /*text-align: center;*/
+        /*!*display: inline;*!*/
+        /*left: 30%;*/
+        /*margin: 0 auto;*/
+        /*margin-left: -50px; !* margin is -0.5 * dimension *!*/
+        /*margin-top: -25px;*/
+        /*!*color: #F5A623;*!*/
+        /*font-family: 'Lato', sans-serif;*/
+        /*color: rgba(0, 0, 0, 0.05);*/
+        /*line-height: 8vw;*/
+        /*font-size: 10vw;*/
+        /*!*font-size: 2rem;*!*/
+    /*}*/
 
 
     .researchDiv {
