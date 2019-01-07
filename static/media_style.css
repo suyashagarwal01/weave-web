@@ -1,0 +1,148 @@
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .social_media li a{
+        font-size: 0.4em;
+    }
+    .social_media li{
+        margin: 0.4em;
+        margin-top: 1.5em;
+    }
+    .iiitd_logo img{
+        min-width: 75px;
+        padding-right: 0.5em;
+        padding-bottom: 2em;
+    }
+    .navbar-brand {
+        padding-left: 0.5em;
+        padding-bottom: 0;
+        margin-top: 10px;
+        margin-bottom:10px;
+      }
+    .logo {
+        height:2.5em;
+        width: 2.5em;
+    }
+    .about{
+        padding-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .about h1{
+        font-size: 10vw;
+        line-height: 9.5vw;
+        text-align: center;
+    }
+    .about .about-data p{
+        padding-top: 1.2em;
+        padding-left: 0.2em;
+        font-size: 4vw;
+        width: auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .about .about-data .carousel{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        float: none;
+      }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576.1px) and (max-width: 768px) {
+    .about{
+        padding-top: 150px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .about h1{
+        font-size: 10vw;
+        line-height: 9.5vw;
+        text-align: center;
+    }
+    .about .about-data p{
+        padding-top: 1.2em;
+        padding-left: 0.2em;
+        font-size: 3vw;
+        width: auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .about .about-data .carousel{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        float: none;
+      }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768.1px) and (max-width: 992px) {
+    .about{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .about h1{
+        font-size: 10vw;
+        line-height: 9.5vw;
+        text-align: center;
+    }
+    .about .about-data p{
+        padding-top: 1.2em;
+        padding-left: 0.2em;
+        font-size: 2.5vw;
+        width: auto;
+        text-align: center;
+    }
+    .about .about-data .carousel{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        float: none;
+      }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992.1px) and (max-width: 1200px) {
+    .about{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .about h1{
+        font-size: 10vw;
+        text-align: center;
+        line-height: 9.5vw;
+    }
+    .about .about-data p{
+        padding-top: 1.2em;
+        padding-left: 0.2em;
+        font-size: 2.5vw;
+        width: auto;
+        text-align: center;
+    }
+    .about .about-data .carousel{
+        display: block;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        float: none;
+      }
+ }
