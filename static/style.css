@@ -10,6 +10,16 @@
     z-index: 1;
 }
 
+.applybtn {
+    border: #F5A623 solid !important;
+    color: #F5A623  !important;
+}
+
+.applybtn:hover{
+    background: #F5A623 !important;
+    color: white  !important;
+}
+
 .navbar-brand {
     padding: 0 15px;
     height: 80px;
