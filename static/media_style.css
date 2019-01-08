@@ -105,6 +105,10 @@
     .mob_seeMore > div > a:hover {
         color: white;
     }
+    .address {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
 
 
@@ -187,6 +191,10 @@
     .mob_seeMore > div > a:hover {
         color: white;
     }
+    .address {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
 }
 
 
@@ -260,6 +268,10 @@
 
     .mob_seeMore > div > a:hover {
         color: white;
+    }
+    .address {
+        padding-left: 20vw;
+        padding-right: 20vw;
     }
 }
 
