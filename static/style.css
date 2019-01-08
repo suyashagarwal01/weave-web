@@ -167,6 +167,8 @@ video {
 }
 .colorify {
   color: #F5A623;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
 }
 
 .scrollDown{
