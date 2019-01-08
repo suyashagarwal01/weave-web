@@ -4,6 +4,7 @@
     .social_media li a{
         font-size: 0.4em;
     }
+
     .social_media li{
         margin: 0.4em;
         margin-top: 1.5em;
@@ -51,6 +52,20 @@
         width: 80%;
         float: none;
     }
+
+    .contact{
+
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .contact h1{
+        font-size: 10vw;
+        line-height: 9.5vw;
+        text-align: center;
+    }
     .re_img{
         height: 55vw;
         max-width: 55vw;
@@ -62,6 +77,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .research {
+        padding-bottom: 0;
+    }
     .research h1{
         padding: 0 0;
         text-align: center;
@@ -71,9 +89,20 @@
     }
     .mob_seeMore{
         visibility: visible;
+        height: auto;
+        padding-left: 32vw;
+        color: white;
+        /*font-size: 100px;*/
+    }
+
+    .mob_seeMore > div > a{
+        font-size: 1rem;
+    }
+
+    .mob_seeMore > div > a:link {
         color: white;
     }
-    .mob_seeMore > div > a:link {
+    .mob_seeMore > div > a:hover {
         color: white;
     }
 }
@@ -109,6 +138,18 @@
         width: 60%;
         float: none;
     }
+    .contact{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .contact h1{
+        font-size: 10vw;
+        line-height: 9.5vw;
+        text-align: center;
+    }
     .re_img{
         height: 55vw;
         max-width: 55vw;
@@ -120,6 +161,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .research {
+        padding-bottom: 0;
+    }
     .research h1{
         padding: 0 0;
         text-align: center;
@@ -127,8 +171,20 @@
     }
     .mob_seeMore{
         visibility: visible;
+        color: white;
+        height: auto;
+        padding-left: 36vw;
+        /*font-size: 100px;*/
     }
+
+    .mob_seeMore > div > a{
+        font-size: 100px;
+    }
+
     .mob_seeMore > div > a:link {
+        color: white;
+    }
+    .mob_seeMore > div > a:hover {
         color: white;
     }
 }
@@ -162,6 +218,17 @@
         width: 60%;
         float: none;
     }
+    .contact{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .contact h1 {
+        font-size: 10vw;
+        line-height: 9.5vw;
+    }
     .re_img{
         height: 55vw;
         max-width: 55vw;
@@ -173,6 +240,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .research {
+        padding-bottom: 0;
+    }
     .research h1{
         padding: 0 0;
         text-align: center;
@@ -180,6 +250,8 @@
     }
     .mob_seeMore{
         visibility: visible;
+        height: auto;
+        padding-left: 40vw;
     }
 
     .mob_seeMore > div > a:link {
@@ -219,5 +291,17 @@
         margin-right: auto;
         width: 60%;
         float: none;
+    }
+    .contact{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 13vw;
+        padding-right: 13vw;
+        width: 100%;
+    }
+    .contact h1{
+        font-size: 10vw;
+        text-align: center;
+        line-height: 9.5vw;
     }
 }
