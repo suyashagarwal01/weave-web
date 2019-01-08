@@ -9,20 +9,21 @@ body {
 .logo {
   height:3.5em;
   width: 3.5em;
+  transition: all 0.4s ease;
   /* margin-bottom: 20px; */
 }
 
 .navbar {
   background-color: transparent;
   color: white;
-  transition: 0.4s;
+  transition: all 0.4s ease;
 }
 .navbar-dark .navbar-nav .nav-link{
   color: white;
   margin-right: 2em;
   margin-left: 2em;
   font-size: 1.4rem;
-  transition: 0.2s;
+  transition: all 0.2s ease;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
   color: #F5A623;
@@ -71,7 +72,10 @@ body {
 }
 
 #menu.scrolling{
-  background-color: rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255) !important;
+  margin-top: -10px;
+  padding-bottom: 0;
+  transition: all 0.4s ease;
 }
 .scrolling .navbar-toggler .icon-bar{
   background-color: black;
@@ -86,8 +90,10 @@ body {
 .navbar-brand {
   padding-left: 0.5em;
   padding-bottom: 0;
-  margin-top: 10px;
-  margin-bottom:10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: all 0.4s ease;
+
 }
 
 .bg_video {
@@ -159,6 +165,9 @@ video {
   z-index: 5;
   transition: 0.4s;
 }
+.colorify {
+  color: #F5A623;
+}
 
 .scrollDown{
   position: absolute;
@@ -188,7 +197,7 @@ video {
 }
 .about{
   position: relative;
-  padding-top: 200px;
+  padding-top: calc(50px + 4vw);
   margin-left: 0;
   margin-bottom: 100px;
   padding-left: 13vw;
@@ -197,8 +206,8 @@ video {
 .about h1{
   font-family: 'Playfair Display', serif;
   color: #F5A623;
-  font-size: calc(70px + 3vw);
-  line-height: calc(60px + 3vw);
+  font-size: calc(70px + 2vw);
+  line-height: calc(60px + 2vw);
   float: inherit;
 }
 
@@ -223,6 +232,7 @@ video {
   background-color: black;
   padding-top: calc(50px + 4vw);
   padding-bottom: 100px;
+  /*margin-bottom: -100px;*/
 }
 
 .research h1{
@@ -299,7 +309,10 @@ video {
 .mob_seeMore{
   visibility: hidden;
   color: white;
+  height: 0;
+  padding-left: 42vws;
   text-decoration-color: white;
+  /*font-size: 100vw;*/
 }
 
 img{
@@ -309,4 +322,37 @@ img{
 
 .col-sm-6, .col-md-6{
   flex: 0 0 75%;
+}
+
+.contact h1{
+  font-family: 'Playfair Display', serif;
+  color: #F5A623;
+  font-size: calc(80px + 2vw);
+  margin-bottom: calc(40px + 1vw);
+
+  /*line-height: calc(60px + 2vw);*/
+  float: inherit;
+}
+.contact{
+  position: relative;
+  padding-top: calc(50px + 4vw);
+  margin-left: 0;
+  margin-bottom: 100px;
+  padding-left: 13vw;
+  padding-right: 13vw;
+
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 30vw; /* This is the aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
