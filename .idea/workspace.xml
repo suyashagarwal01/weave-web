@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="983fcb0a-963f-4d2c-92fb-e6f78d5c94d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/joinus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/joinus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projects/gehna.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projects/gehna.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/research.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,13 +22,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/min.style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="638">
+              <caret line="284" column="16" selection-start-line="284" selection-start-column="12" selection-end-line="284" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/joinus.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
@@ -101,12 +97,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="267" column="15" lean-forward="true" selection-start-line="200" selection-end-line="267" selection-end-column="15" />
+            <state relative-caret-position="413">
+              <caret line="141" column="80" selection-start-line="141" selection-start-column="80" selection-end-line="141" selection-end-column="80" />
               <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -120,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="410">
+              <caret line="286" column="25" selection-start-line="286" selection-start-column="25" selection-end-line="286" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -138,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>membertype</find>
-      <find>400</find>
       <find>research</find>
       <find>keyw</find>
       <find>btn</find>
@@ -167,6 +163,8 @@
       <find>./</find>
       <find>page-footer</find>
       <find>footer</find>
+      <find>team</find>
+      <find>re_img</find>
       <find>data-</find>
     </findStrings>
   </component>
@@ -186,13 +184,13 @@
         <option value="$PROJECT_DIR$/templates/team.html" />
         <option value="$PROJECT_DIR$/templates/projects/gehna.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/static/css/min.style.css" />
         <option value="$PROJECT_DIR$/docs/projects/gehna.html" />
         <option value="$PROJECT_DIR$/docs/team.html" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/research.html" />
         <option value="$PROJECT_DIR$/docs/joinus.html" />
+        <option value="$PROJECT_DIR$/static/style.css" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
       </list>
     </option>
   </component>
@@ -297,12 +295,12 @@
       <workItem from="1546949527574" duration="531000" />
       <workItem from="1547545035450" duration="5762000" />
       <workItem from="1547556871983" duration="634000" />
-      <workItem from="1547749239166" duration="13200000" />
+      <workItem from="1547749239166" duration="13714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91168000" />
+    <option name="totallyTimeSpent" value="91682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="6" />
@@ -492,34 +490,6 @@
     <entry file="file://$PROJECT_DIR$/static/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/min.style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="267" column="15" lean-forward="true" selection-start-line="200" selection-end-line="267" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9844#9850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/projects/gehna.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -567,6 +537,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/min.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="284" column="16" selection-start-line="284" selection-start-column="12" selection-end-line="284" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="286" column="25" selection-start-line="286" selection-start-column="25" selection-end-line="286" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/joinus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -577,6 +561,22 @@
             <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#11616#11622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="141" column="80" selection-start-line="141" selection-start-column="80" selection-end-line="141" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9844#9850#0" expanded="true" />
           </folding>
         </state>
       </provider>
