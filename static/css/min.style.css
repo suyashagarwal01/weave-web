@@ -7,6 +7,10 @@
     object-fit: contain;
 }
 
+.footer-link > a{
+    color: black;
+}
+
 .padding-0 {
     padding-right: 0;
     padding-left: 0;
@@ -14,6 +18,16 @@
 
 .card-body {
     text-align: center;
+}
+
+.projLink {
+    color: #F5A623;
+    text-decoration-color: #F5A623;
+}
+
+ a:hover{
+    color: #F5A623 !important;
+    text-decoration-color: #F5A623;
 }
 
 .applybtn {
@@ -28,7 +42,7 @@
 
 .projectData {
     background-color: white;
-    height: 100vh;
+    /*height: 100vh;*/
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
