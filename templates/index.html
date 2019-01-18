@@ -22,7 +22,7 @@
     <!-- <script src="main.js"></script> -->
 </head>
 
-<body data-spy="scroll" data-target="#menu" >
+<body data-spy="scroll" data-offset="200" data-target="#menu" >
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
         <a class="navbar-brand" href="#home"><img src="../static/logo.png" class="logo"></a>
@@ -58,7 +58,7 @@
 </header>
 
 <!-- landing page -->
-<section class="scrollx home" data-section-name="home" id="home">
+<section class="home" data-section-name="home" id="home">
     <div class="jumbotron jumbotron-fluid bg_video">
         <video playsinline autoplay muted loop>
             <source src="../static/final.webm" type="video/webm">
@@ -86,7 +86,7 @@
 </section>
 
 <!-- About Page -->
-<section class="scrollx about" data-section-name="about" id="about">
+<section class="about" data-section-name="about" id="about">
     <div class="container-fluid">
         <h1>About<br>The Lab</h1>
         <div class="row">
@@ -196,8 +196,6 @@
 
     </div>
 </section>
-    <!--<script>-->
-        <!--$('body').scrollspy({ target: '#menu' })-->
-    <!--</script>-->
+
 </body>
 </html>
