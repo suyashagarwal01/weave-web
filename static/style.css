@@ -83,10 +83,9 @@ body {
 .scrolling .navbar-nav .nav-link, .scrolling .navbar-nav .nav-link:visited{
   color: black;
 }
-.scrolling .navbar-nav .nav-link:hover{
+.scrolling .navbar-nav .nav-link:hover, .scrolling .navbar-nav .nav-link.active{
   color: #F5A623;
 }
-
 .navbar-brand {
   padding-left: 0.5em;
   padding-bottom: 0;
@@ -179,13 +178,13 @@ video {
   text-align: center;
 
 }
-@keyframes scroll {
+@keyframes scrollx {
   0%{ opacity: 0; transform: translateY(-20px);}
   30%{ opacity: 1; transform: translateY(-10);}
   70% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(10px); }
 }
-@-webkit-keyframes scroll {
+@-webkit-keyframes scrollx {
   0%{ opacity: 0; transform: translateY(-20);}
   30%{ opacity: 1; transform: translateY(-10px);}
   70% { opacity: 1; transform: translateY(0); }
@@ -194,8 +193,8 @@ video {
 
 
 .scrollDown a img{
-  -webkit-animation: all 1.5s linear infinite ;
-  animation: scroll 1.5s linear infinite ;
+  -webkit-animation: scrollx 1.5s linear infinite ;
+  animation: scrollx 1.5s linear infinite ;
 }
 .about{
   position: relative;
