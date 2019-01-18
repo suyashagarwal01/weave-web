@@ -26,8 +26,12 @@
     color: white  !important;
 }
 
-.pt1 {
-
+.projectData {
+    background-color: white;
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
 .bg_project {
@@ -460,6 +464,14 @@
 
     #postTypeLine {
         visibility: hidden;
+    }
+
+    .projectData {
+        background-color: white;
+        height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 50px;
     }
 
     .meetDiv {
