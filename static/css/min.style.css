@@ -26,12 +26,47 @@
     color: white  !important;
 }
 
+.pt1 {
+
+}
 
 .researchcard {
     width: 100% !important;
     height: 150%;
     padding-right: 15px;
     padding-bottom: 10px;
+}
+
+.keywords{
+    /*padding: 10px 10px 10px 10px;*/
+    /*margin-bottom: 20px;*/
+    /*background-color: #e6e6e6;*/
+    /*border-radius: 5%;*/
+    border: transparent;
+    /*width: 100%;*/
+    cursor: pointer;
+    /*display: flx;*/
+    font-size: 0.9rem;
+    /*margin-left: 4px;*/
+    text-align: left;
+    margin-right: 25px;
+    line-height: 1.5rem;
+    /*margin-left: 12px;*/
+    /*min-width: 16%;*/
+    border-radius: 10px;
+}
+
+.keywordDiv{
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+}
+
+.keywordBreak {
+    display: none;
 }
 
 #novel-interactions.module {
@@ -743,6 +778,13 @@
     }
 
 
+}
+
+@media (max-width: 992px) and (min-width: 768.1px) {
+
+    .keywordBreak {
+        display: inline;
+    }
 }
 
 /*  ========  MAX-WIDTH 1200px AND MIN-WIDTH 768.1px ======= */
