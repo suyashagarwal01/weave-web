@@ -1,40 +1,13 @@
-$.fn.isInViewport = function(containerSelector, partial) {
-  var $element = this;
-
-  if($element.length) {
-    var el = $element[0];
-    var rect = el.getBoundingClientRect();
-
-    if(containerSelector && $(containerSelector).length) {
-      var parentRect = $(containerSelector)[0].getBoundingClientRect();
-    } else {
-      var parentRect = {top: 0, left: 0, bottom: $(window).height(), right: $(window).width()};
-    }
-
-    if(partial) {
-      return (
-          rect.left >= parentRect.left &&
-          rect.right <= parentRect.right &&
-          (
-              (rect.top >= parentRect.top && rect.top <= parentRect.bottom) ||
-              (rect.bottom >= parentRect.top && rect.bottom <= parentRect.bottom)
-          )
-      );
-    } else {
-      return (
-          rect.top >= parentRect.top &&
-          rect.left >= parentRect.left &&
-          rect.bottom <= parentRect.bottom &&
-          rect.right <= parentRect.right
-      );
-    }
-  }
-}
-
 
 $(document).ready(function(){
-  // Add smooth scrolling to all links
-  var changehash="#x";
+
+  window.onload=window.onpageshow= function() {
+    if($('#researchDiv').hasClass('active')){
+      $(".social_media li a").css({"color":"white"});
+    }
+};
+
+    // Add smooth scrolling to all links
   if($(window).scrollTop() > 500) {
     $('#menu').addClass('scrolling');
     $('.logo').attr('src', '../static/WeaveLogo_sm.png');
@@ -86,8 +59,19 @@ $(document).ready(function(){
     } // End if
   });
 
+ 
+
   $(window).scroll(function() {
     // console.log($('.about').isInViewport());
+    if($('#researchDiv').hasClass('active')){
+      $(".social_media li a").css({"color":"white"});
+    }
+    else {
+      if($('#menu').hasClass('scrolling')){
+        $(".social_media li a").css({"color":"black"});
+      }
+    }
+
 
     if($(window).scrollTop() > 500) {
 
@@ -108,31 +92,5 @@ $(document).ready(function(){
     }
 
 
-    // $('section').each(function () {
-    //   var top = window.pageYOffset;
-    //   var distance = top - $(this).offset().top;
-    //   var hash = $(this).attr('id');
-    //   console.log(top);
-    //   console.log(distance);
-    //   console.log(hash);
-    //   console.log("_________________");
-    //   if (distance < 10 && distance > -10 && changehash !== hash) {
-    //     window.location.hash = (hash);
-    //   }
-    // });
   });
 });
-
-//   $(document).on('scroll',function()
-// {
-//     $('.scrollx').each(function()
-//     {
-//       var data = this.hash;
-//       console.log(data);
-//         if ( $(this).offset().top < window.pageYOffset + 10 &&   $(this).offset().top + $(this).height() > window.pageYOffset + 10)
-//         {
-//           window.location.hash = data;
-//         }
-// });
-
-// });
