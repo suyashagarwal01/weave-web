@@ -482,7 +482,7 @@
 
     .projectData {
         background-color: white;
-        height: 100vh;
+        /*height: 100vh;*/
         padding-left: 0;
         padding-right: 0;
         padding-top: 50px;
