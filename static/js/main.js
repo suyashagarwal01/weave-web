@@ -10,7 +10,7 @@ $(document).ready(function(){
     // Add smooth scrolling to all links
   if($(window).scrollTop() > 500) {
     $('#menu').addClass('scrolling');
-    $('.logo').attr('src', '../static/WeaveLogo_sm.png');
+    $('.logo').attr('src', './static/WeaveLogo_sm.png');
     $(".social_media li a").css({"color":"black"});
 
   }
@@ -79,7 +79,7 @@ $(document).ready(function(){
 
         $('#menu').addClass('scrolling');
         $(".social_media li a").css({"color":"black"});
-        $('.logo').attr('src', '../static/WeaveLogo_sm.png');
+        $('.logo').attr('src', './static/WeaveLogo_sm.png');
       }
     }
     else {
@@ -87,7 +87,7 @@ $(document).ready(function(){
 
         $('#menu').removeClass('scrolling');
         $(".social_media li a").css({"color":"white"});
-        $('.logo').attr('src', '../static/logo.png');
+        $('.logo').attr('src', './static/logo.png');
       }
     }
 
