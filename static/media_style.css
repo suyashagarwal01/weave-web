@@ -32,7 +32,7 @@
         padding-right: 13vw;
         width: 100%;
     }
-    .about h1{
+    .about h1, .research h1{
         font-size: 10vw;
         line-height: 9.5vw;
         text-align: center;
@@ -84,7 +84,6 @@
         padding: 0 0;
         text-align: center;
         width: auto;
-        font-size: calc(20px + 7vw);
 
     }
     .mob_seeMore{
@@ -172,6 +171,8 @@
         padding: 0 0;
         text-align: center;
         width: auto;
+        font-size: 10vw;
+
     }
     .mob_seeMore{
         visibility: visible;
@@ -236,6 +237,7 @@
     .contact h1 {
         font-size: 10vw;
         line-height: 9.5vw;
+        text-align: center;
     }
     .re_img{
         height: 55vw;
@@ -255,6 +257,8 @@
         padding: 0 0;
         text-align: center;
         width: auto;
+        font-size: 10vw;
+
     }
     .mob_seeMore{
         visibility: visible;
@@ -289,6 +293,7 @@
         text-align: center;
         line-height: 9.5vw;
     }
+    
     .about .about-data p{
         padding-top: 1.2em;
         padding-left: 0.2em;
