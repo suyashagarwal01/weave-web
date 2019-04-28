@@ -39,7 +39,10 @@
     background: #F5A623 !important;
     color: white  !important;
 }
-
+.disabled{
+    color: gray !important;
+    border: gray solid !important;
+}
 .projectData {
     background-color: white;
     /*height: 100vh;*/
@@ -262,14 +265,14 @@
     position: fixed;
     width: 100px;
     height: 50px;
-    top: 50%;
+    top: 60%;
     left: 10%;
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px;
     padding-bottom: 10px;
     color: #F5A623;
-    line-height: 6vw;
-    font-size: 6vw;
+    line-height: calc(60px + 1.5vw);
+    font-size: calc(60px + 1.5vw);
     visibility: visible;
 }
 
@@ -397,13 +400,13 @@
     position: fixed;
     width: 100px;
     height: 50px;
-    top: 40%;
+    top: 55%;
     left: 10%;
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px;
     color: #F5A623;
-    line-height: 6.5vw;
-    font-size: 6.5vw;
+    line-height: calc(60px + 1.5vw);
+    font-size: calc(60px + 1.5vw);
     visibility: visible;
 }
 
@@ -852,7 +855,7 @@
         margin-top: 10px;
         color: #F5A623;
         line-height: 8vw;
-        font-size: 8vw;
+        font-size: 12vw;
         /*margin: 0 auto;*/
     }
 
