@@ -131,8 +131,10 @@ video {
 
 }
 .weave_logo img{
-  max-width: 75%;
+  max-width:50%;
+  max-height: 50%;
   height: auto;
+  width: auto;
 }
 
 .iiitd_logo{
@@ -204,14 +206,14 @@ video {
   position: relative;
   padding-top: calc(50px + 4vw);
   margin-left: 0;
-  margin-bottom: 100px;
+  margin-bottom: 10vw;
   padding-left: 13vw;
 
 }
 .about h1{
   font-family: 'Playfair Display', serif;
   color: #F5A623;
-  font-size: calc(70px + 2vw);
+  font-size: calc(70px + 1.5vw);
   line-height: calc(60px + 2vw);
   float: inherit;
 }
@@ -245,7 +247,7 @@ video {
   position: relative;
   font-family: 'Playfair Display', serif;
   color: white;
-  font-size: calc(70px + 2vw);
+  font-size: calc(70px + 1.5vw);
   padding-left: calc(13vw - 20px);
   margin-bottom: calc(50px + 2vw);
   width: 60vw;
@@ -340,7 +342,7 @@ img{
 .contact h1{
   font-family: 'Playfair Display', serif;
   color: #F5A623;
-  font-size: calc(80px + 2vw);
+  font-size: calc(70px + 1.5vw);
   margin-bottom: calc(40px + 1vw);
 
   /*line-height: calc(60px + 2vw);*/
