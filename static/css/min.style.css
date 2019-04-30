@@ -265,7 +265,7 @@
     position: fixed;
     width: 100px;
     height: 50px;
-    top: 60%;
+    top: 30%;
     left: 10%;
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px;
@@ -304,11 +304,26 @@
     margin: 0 auto;
 }
 
+#alumni .img-container{
+    height: 150px;
+    width: 150px;
+}
+
 .memberType {
     margin-top: 6vw;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+
+.memberName {
+    margin-top: -10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+#alumni .memberName{
+    font-size: 1rem;
 }
 
 .thumbnail {
@@ -367,12 +382,6 @@
     align: center;
 }
 
-.memberName {
-    margin-top: -10px;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2rem;
-}
-
 .memberField {
     margin-top: -13px;
     font-family: 'Lato', sans-serif;
@@ -400,7 +409,7 @@
     position: fixed;
     width: 100px;
     height: 50px;
-    top: 55%;
+    top: 30%;
     left: 10%;
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px;
@@ -418,6 +427,9 @@
     visibility: hidden;
 }
 
+.meetSpaceFix{
+    padding: 25px 0px;
+}
 .creativeMindsDiv {
     width: 100%;
     display: table-cell;
